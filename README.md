@@ -1,6 +1,6 @@
 # robot_simulation
 
-This is a package for simulating Turtlebot3 in a simple maze using ROS and Gazebo. Your task is to write an algorithm that will control robot's wheel velocites in order to traverse the maze as quickly as possible. You should place your code in `RobotSimulation.cpp` file in marked lines.
+This is a package for simulating Turtlebot3 in a simple maze using ROS and Gazebo. Your task is to write an algorithm that will control robot's wheel velocites in order to traverse the maze as quickly as possible. You should place your code in `RobotSimulation.cpp` file in marked lines. You can use 3 simulated range sensors or the whole laser scan.
 
 Please fork this repository and keep commiting your changes on a regular basis. You can write a report in this README at the bottom or in a separate file. Include description of your algorithm and add a link to a video of the robot traversing the maze.
 

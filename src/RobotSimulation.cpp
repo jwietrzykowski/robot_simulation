@@ -41,6 +41,7 @@ void RobotSimulation::run() {
     while (ros::ok()) {
         ros::Time curTimestamp = ros::Time::now();
 
+        // simulating 3 range sensors from laser scanner
         // angles around which mean range will be calculated
         // angles start from 0 in x direction (front of the robot) and continue counter-clockwise
         static constexpr double leftAngle = 30.0 * M_PI / 180.0;
