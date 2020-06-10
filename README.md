@@ -13,7 +13,7 @@ The package was tested on Ubuntu 18.04 and ROS Melodic. You can install Ubuntu o
 2. Install necessary software:
 
     ```bash
-   sudo apt install python-catkin-tools ros-melodic-turtlebot3 ros-melodic-turtlebot3-gazebo ros-melodic-gazebo-plugins
+   sudo apt install git python-catkin-tools ros-melodic-turtlebot3 ros-melodic-turtlebot3-gazebo ros-melodic-gazebo-plugins
    ```
    
 3. If you're not familiar with ROS complete [this tutorials 1-6](http://wiki.ros.org/ROS/Tutorials). Instead of `catkin_make` we recommend using newer `catkin build` command.
