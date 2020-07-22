@@ -86,9 +86,9 @@ void RobotSimulation::run() {
         }
 
         // uncomment to print computed ranges
-        ROS_INFO_STREAM("Left range: " << leftRange);
-        ROS_INFO_STREAM("Right range: " << rightRange);
-        ROS_INFO_STREAM("Front range: " << frontRange);
+        // ROS_INFO_STREAM("Left range: " << leftRange);
+        // ROS_INFO_STREAM("Right range: " << rightRange);
+        // ROS_INFO_STREAM("Front range: " << frontRange);
 
         // computing setpoint wheel velocities
         double leftVel = 0.02;
